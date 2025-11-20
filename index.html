@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GustFeel Tendry Shoes</title>
+
+    <!-- Fuente y iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="top-bar">
+        <div class="brand">
+            <img src="logo.png" alt="Logo GustFeel Tendry" class="logo">
+            <div>
+                <h1>GUSTFEEL TENDRY</h1>
+                <span class="tagline">Zapatillas seleccionadas, estilo único.</span>
+            </div>
+        </div>
+
+        <nav class="top-links">
+            <a href="#productos">Catálogo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Del barrio pa' la fama.</h2>
+                <p>Modelos limitados, traídos desde USA. Revisá el catálogo y escribinos directo por WhatsApp o Instagram para hacer tu pedido.</p>
+                <a href="#productos" class="btn-primary">Ver catálogo</a>
+            </div>
+        </section>
+
+        <!-- Productos -->
+        <section id="productos" class="productos-section">
+            <h2>Disponibles ahora</h2>
+            <p class="subtext">Todos los pares son originales. Tallas y stock sujetos a consulta.</p>
+
+            <div class="grid" id="grid-productos">
+                <!-- Aquí se cargan las cards desde app.js -->
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <p>¿Listo para tu próximo par?</p>
+            <div class="footer-links">
+                <a href="https://instagram.com/gustfeel_Tendry" target="_blank">
+                    <i class="fab fa-instagram"></i> GustFeel Tendry
+                </a>
+                <a href="https://wa.me/50687279121" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            <small>GustFeel Tendry · Hecho con estilo desde Costa Rica por Gustavo Moya.</small>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
