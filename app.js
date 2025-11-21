@@ -2,19 +2,26 @@
 const zapatos = [
 {
 nombre: "Nike Air Max",
-precio: "₡45.000",
+precio: "₡55.000",
 imagen: "https://i.postimg.cc/28k4pXZz/Air-Max.webp"
 },
 {
  nombre: "Adidas Samba",
-        precio: "₡39.000",
+        precio: "₡45.000",
         imagen: "https://i.postimg.cc/jd2L4Vf2/samba.avif"
     },
 {
 nombre: "Messi Freestyle",
-precio: "₡42.000",
+precio: "₡50.000",
 imagen: "https://i.postimg.cc/G2jHqdzk/futsal-messi.avif"
+},
+
+{
+nombre: "Crocs Batman",
+precio: "₡45.000",
+imagen: "https://i.postimg.cc/MKvpzD9R/Crocs-Batman.jpg"
 }
+
 ];
 
 
